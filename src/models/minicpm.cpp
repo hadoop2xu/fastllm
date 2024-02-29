@@ -58,8 +58,8 @@ namespace fastllm {
         this->user_role = "";
         this->bot_role = "";
 
-        block_cnt = 32;
-        rotary_dim = 128;
+        block_cnt = 40;
+        rotary_dim = 64;
 
         sin.resize(max_positions);
         cos.resize(max_positions);
